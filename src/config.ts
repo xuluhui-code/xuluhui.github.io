@@ -100,11 +100,3 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 	theme: "github-dark",
 };
 //Lorem Ipsum
-/*
-src/components/widget/WidgetLayout.astro (第 6 行第 4 列) 
-src/components/widget/SideBar.astro (第 8 行第 8 列) 
-src/components/widget/TOC.astro (第 6 行第 8 列) 
-src/components/widget/Categories.astro (第 17 行第 8 列) 
-src/components/widget/NavMenuPanel.astro（第 7 行第 7 列） 
-src/components/widget/Profile.astro（无效的 YAML 前置内容 问题："在此上下文中不允许映射值 "的错误信息表明 YAML 前置内容中可能存在格式 议题，例如不正确的缩进、错位的冒号或其他结构性问题。
-*/
