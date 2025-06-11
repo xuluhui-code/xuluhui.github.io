@@ -8,7 +8,7 @@ category: 'tree'
 draft: true 
 lang: ''
 ---
----
+
 # dfs 序
 
 对于一棵树，我们从根节点处开始 dfs，过程中在每个点第一次遇到的时候把它记录下来，就得到了一棵树的 dfs 序，一般记作 dfn。
