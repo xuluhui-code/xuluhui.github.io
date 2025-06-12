@@ -1,5 +1,5 @@
 ---
-title: the_solution_of_CF_Round_1024_Div_2
+title: CF_Round_1024_Div_2
 published: 2025-06-12
 description: ''
 image: ''
