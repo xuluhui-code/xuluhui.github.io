@@ -3,8 +3,8 @@ title: tree
 published: 2025-06-11
 description: ''
 image: ''
-tags: [算法]
-category: 'tree'
+tags: [tree,算法]
+category: '算法'
 draft: false 
 lang: ''
 ---
