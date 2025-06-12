@@ -3,7 +3,7 @@ title: tree
 published: 2025-06-11
 description: ''
 image: ''
-tags: [tree]
+tags: [算法]
 category: 'tree'
 draft: false 
 lang: ''
