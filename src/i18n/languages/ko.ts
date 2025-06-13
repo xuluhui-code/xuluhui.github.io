@@ -36,5 +36,5 @@ export const ko: Translation = {
 	[Key.publishedAt]: "게시일",
 	[Key.license]: "라이선스",
 
-	[Key.series]: '시리즈',
+	[Key.series]: "시리즈",
 };

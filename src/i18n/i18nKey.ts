@@ -33,7 +33,7 @@ enum I18nKey {
 	publishedAt = "publishedAt",
 	license = "license",
 
-	series = 'series',
+	series = "series",
 }
 
 export default I18nKey;
