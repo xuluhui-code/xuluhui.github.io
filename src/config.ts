@@ -31,11 +31,11 @@ export const siteConfig: SiteConfig = {
 	},
 	favicon: [
 		// Leave this array empty to use the default favicon
-		// {
-		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
+		{
+		  src: 'https://i.postimg.cc/Mp3Q7VWm/image.jpg',    // Path of the favicon, relative to the /public directory
 		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
 		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		// }
+		}
 		// icon: 'simple-icons:codementor',
 	],
 };
@@ -56,7 +56,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "https://i.postimg.cc/Mp3Q7VWm/image.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "xuluhui",
-	bio: "这是xuluhui蒟蒻的部落格.",
+	bio: "海到尽头天作岸,山登绝顶我为峰.",
 	links: [
 		// {
 		// 	name: "Twitter",
