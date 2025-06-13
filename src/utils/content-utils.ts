@@ -3,6 +3,22 @@ import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import { getCategoryUrl } from "@utils/url-utils.ts";
 
+// import { BlogPostData } from "../../types/config.ts";
+export type BlogPostData = {
+	body: string;
+	title: string;
+	published: Date;
+	description: string;
+	tags: string[];
+	draft?: boolean;
+	image?: string;
+	category?: string;
+	series?: string
+	prevTitle?: string;
+	prevSlug?: string;
+	nextTitle?: string;
+	nextSlug?: string;
+};
 export async function getSortedPosts() {
 	const allBlogPosts = await getCollection("posts", ({ data }) => {
 		return import.meta.env.PROD ? data.draft !== true : true;
@@ -91,4 +107,22 @@ export async function getCategoryList(): Promise<Category[]> {
 		});
 	}
 	return ret;
+}
+export async function getPostSeries(
+  seriesName: string,
+): Promise<{ body: string; data: BlogPostData; slug: string }[]> {
+  const posts = (await getCollection('posts', ({ data }) => {
+    return (
+      (import.meta.env.PROD ? data.draft !== true : true) &&
+      data.series === seriesName
+    )
+  })) as unknown as { body: string; data: BlogPostData; slug: string }[]
+
+  posts.sort((a, b) => {
+    const dateA = new Date(a.data.published)
+    const dateB = new Date(b.data.published)
+    return dateA > dateB ? 1 : -1
+  })
+
+  return posts
 }

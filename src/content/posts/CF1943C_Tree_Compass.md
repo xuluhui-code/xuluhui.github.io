@@ -7,6 +7,7 @@ tags: [题解]
 category: '题解'
 draft: false 
 lang: ''
+series: "CF"
 ---
 [洛谷题目](https://www.luogu.com.cn/problem/CF1943C)
 [CF题目](https://codeforces.com/problemset/problem/1943/C)

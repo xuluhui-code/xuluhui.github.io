@@ -6,6 +6,7 @@ image: "https://i.postimg.cc/T132TDMc/1.jpg"
 tags: ["Fuwari", "Blogging", "Customization"]
 category: Guides
 draft: false
+series: "test"
 ---
 
 > Cover image source: [Source](https://i.postimg.cc/T132TDMc/1.jpg)

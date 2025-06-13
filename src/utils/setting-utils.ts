@@ -1,5 +1,6 @@
 import { expressiveCodeConfig } from "@/config";
 import type { LIGHT_DARK_MODE } from "@/types/config";
+// import { BlogPostData } from "../../types/config.ts";
 import {
 	AUTO_MODE,
 	DARK_MODE,
