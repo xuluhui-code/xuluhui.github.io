@@ -1,4 +1,6 @@
 enum I18nKey {
+	series = 'series',
+
 	home = "home",
 	about = "about",
 	archive = "archive",
@@ -32,6 +34,8 @@ enum I18nKey {
 	author = "author",
 	publishedAt = "publishedAt",
 	license = "license",
+
+	
 }
 
 export default I18nKey;

@@ -7,6 +7,7 @@ tags: [题解]
 category: '题解'
 draft: false 
 lang: ''
+series: "CF"
 ---
 # [A.](https://codeforces.com/contest/2102/problem/A) [Dinner Time](https://www.luogu.com.cn/problem/CF2102A)
 ## Problem

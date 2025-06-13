@@ -6,6 +6,7 @@ image: "https://i.postimg.cc/T132TDMc/1.jpg"
 tags: ["Fuwari", "Blogging", "Customization"]
 category: Guides
 draft: false
+series: "build blog"
 ---
 
 > Cover image source: [Source](https://i.postimg.cc/T132TDMc/1.jpg)
@@ -23,6 +24,7 @@ image: https://i.postimg.cc/T132TDMc/1.jpg
 tags: [Foo, Bar]
 category: Front-end
 draft: false
+series: "build blog"
 ---
 ```
 
