@@ -8,7 +8,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "xuluhiの小窝",
+	title: "xuluhuiの小窝",
 	subtitle: "",
 	lang: "zh_CN", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
 	themeColor: {
@@ -49,7 +49,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.About,
 		{
 			name: "GitHub",
-			url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
+			url: "https://github.com/xuluhui-code/xuluhui.github.io", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
@@ -57,7 +57,7 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "https://i.postimg.cc/Mp3Q7VWm/image.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "xuluhi",
+	name: "xuluhui",
 	bio: "海到无边天作岸，山登绝顶我为峰",
 	links: [
 		{
@@ -75,7 +75,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			url: "https://github.com/xuluhui-code/xuluhui.github.io",
 		},
 	],
 };
