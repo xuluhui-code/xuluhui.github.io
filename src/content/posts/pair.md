@@ -9,6 +9,7 @@ draft: false
 ---
 ```cpp
 #include<iostream>
+namespace PAIR{
 template<typename T1, typename T2>
 class pair {
 public:
@@ -94,4 +95,5 @@ make_pair(T1 &&a, T2 &&b) {
     typedef pair<__ds_type1, __ds_type2> __pair_type;
     return __pair_type(std::forward<T1>(a), std::forward<T2>(b));
 }
+using namespace PAIR;
 ```

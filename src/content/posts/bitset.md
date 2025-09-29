@@ -16,6 +16,7 @@ lang: ''
 #include <cctype>
 #include <algorithm>
 
+namespace BITSET{
 template<size_t N>
 class bitset {
 private:
@@ -517,4 +518,5 @@ bitset<N> operator^(const bitset<N>& lhs, const bitset<N>& rhs) noexcept {
     res ^= rhs;
     return res;
 }
+using namespace BITSET;
 ```
