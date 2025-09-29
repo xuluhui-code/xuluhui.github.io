@@ -9,12 +9,8 @@ draft: false
 lang: ''
 ---
 ```cpp
-#include <climits>
-#include <stdexcept>
-#include <string>
-#include <iostream>
-#include <cctype>
-#include <algorithm>
+#include<climits>
+#include<iostream>
 
 namespace BITSET{
 template<size_t N>

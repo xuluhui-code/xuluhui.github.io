@@ -9,6 +9,7 @@ draft: false
 ---
 ```cpp
 #include<iostream>
+
 namespace PAIR{
 template<typename T1, typename T2>
 class pair {
